@@ -1,0 +1,31 @@
+/*
+* @Author: admin
+* @Date:   2017-05-20 15:14:02
+* @Last Modified by:   admin
+* @Last Modified time: 2017-06-24 22:53:31
+*/
+
+@import 'utils/variables';
+
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap.scss";
+
+@import 'vendors/slick.scss';
+
+@import 'base/typography';
+@import 'base/base';
+
+@import 'layout/subscribe';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/aside';
+@import 'layout/footer';
+@import 'layout/media';
+
+@import 'pages/_home';
+//@import 'pages/_contact';
+@import 'pages/blog';
+@import 'pages/about';
+
+
+
+

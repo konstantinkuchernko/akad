@@ -1,0 +1,51 @@
+/*
+Footer
+*/
+
+.footer{
+	padding: 50px 0;
+	font-family: $font-family-base;
+	color: #9a9a9a;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1;
+	p{
+		margin: 0;
+	}
+	&-menu{
+		margin-left: -15px;
+		li{
+			a{
+				color: #9a9a9a;
+				&:hover, &:focus{
+					color: $brand-primary;
+				}
+			}
+		}
+	}
+	&__cont{
+		text-align: right;
+		margin-right: -15px;
+	}
+}
+
+.social{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 25px;
+	float: right;
+	text-align: right;
+	margin-right: -20px;
+	&__icon{
+		color: #999;
+		font-size: 18px;
+		&:hover, &:focus{
+			color: $brand-primary;
+		}
+	}
+	li{
+		float: left;
+		margin-right: 20px;
+	}
+}

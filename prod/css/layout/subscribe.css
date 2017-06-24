@@ -1,0 +1,59 @@
+/*
+* @Author: admin
+* @Date:   2017-06-11 10:27:54
+* @Last Modified by:   admin
+* @Last Modified time: 2017-06-11 10:40:44
+*/
+.subscribe {
+  background: #7beec7;
+  padding: 50px 0;
+  margin: 0; }
+  .subscribe h2 {
+    color: #FFF;
+    line-height: 1.6; }
+  .subscribe a {
+    margin-bottom: 50px; }
+  .subscribe form {
+    background: #FFF;
+    padding: 18px 26px 18px 20px; }
+  .subscribe h3 {
+    max-width: 340px;
+    line-height: 1.5;
+    margin: 0; }
+  .subscribe button {
+    float: right; }
+  .subscribe input {
+    float: left;
+    width: calc(100% - 123px);
+    border: none;
+    outline: none;
+    padding: 22px 19px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0; }
+    .subscribe input::-webkit-input-placeholder {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .subscribe input::-moz-placeholder {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .subscribe input:-ms-input-placeholder {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .subscribe input::placeholder {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 700; }
+  .subscribe p {
+    font-size: 16px;
+    margin: 10px 0 29px; }
+
+.btn-backward {
+  background: #FFF; }
+
+.row-form {
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1); }

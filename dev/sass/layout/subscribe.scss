@@ -1,0 +1,57 @@
+/*
+* @Author: admin
+* @Date:   2017-06-11 10:27:54
+* @Last Modified by:   admin
+* @Last Modified time: 2017-06-11 10:40:44
+*/
+
+
+.subscribe{
+	background: #7beec7;
+	padding: 50px 0;
+	margin: 0;
+	h2{
+		color: #FFF;
+		line-height: 1.6;
+	}
+	a{
+		margin-bottom: 50px;
+	}
+	form{
+		background: #FFF;
+		padding: 18px 26px 18px 20px;
+	}
+	h3{
+		max-width: 340px;
+		line-height: 1.5;
+		margin: 0;
+	}
+	button{
+		float: right;
+	}
+	input{
+		float: left;
+		width: calc(100% - 123px);
+		border: none;
+		outline: none;
+		padding: 22px 19px;
+		box-shadow: none;
+		border-radius: 0;
+		&::placeholder{
+			font-size: 12px;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+	p{
+		font-size: 16px;
+		margin: 10px 0 29px;
+	}
+}
+.btn-backward{
+	background: #FFF;
+}
+.row-form{
+	margin: 0;
+	border: 1px solid rgba(0,0,0, .1);
+}
