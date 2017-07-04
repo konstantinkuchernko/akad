@@ -6,17 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blog</title>
   <link rel="shortcut icon" href="favicon.ico">
-
   <link rel="stylesheet" href="prod/css/style.min.css">
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-<body>
+<body class="animsition">
 
   <section class="intro">
     <header>
@@ -36,11 +33,11 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-menu">
-              <li><a href="index.html" >Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li ><a href="blog.html" class="active">Blog</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contacts</a></li>
+              <li><a class="animsition-link" href="index.html" >Home</a></li>
+              <li><a class="animsition-link" href="about.html">About</a></li>
+              <li ><a class="animsition-link active" href="blog.html">Blog</a></li>
+              <li><a class="animsition-link" href="#">Services</a></li>
+              <li><a class="animsition-link" href="#">Contacts</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -253,11 +250,11 @@
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <ul class="nav navbar-nav footer-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li ><a href="blog.html" class="active">Blog</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a class="animsition-link"  href="index.html">Home</a></li>
+            <li><a class="animsition-link" href="about.html">About</a></li>
+            <li ><a class="animsition-link active" href="blog.html">Blog</a></li>
+            <li><a class="animsition-link" href="#">Services</a></li>
+            <li><a class="animsition-link" href="#">Contacts</a></li>
           </ul>
         </div>
         <div class="col-md-6 col-sm-12">
@@ -278,7 +275,10 @@
   </footer>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="prod/js/jquery.animsition.min.js"></script>
+  <script src="prod/js/smoothScroll.js"></script>
+  <script src="prod/js/bootstrap.min.js"></script>
+  <script src="prod/js/main.min.js"></script>
 </body>
 </html>
